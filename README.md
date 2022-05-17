@@ -13,31 +13,31 @@ Utlizing neural metwork and machine learnig to create a binary classifier capabl
 
 +  Technologies used:
 
-    . Python 
+    -   Python 
     
-    . scikit-learn 
+    -   scikit-learn 
     
-    . pandas 
+    -   pandas 
     
-    . TensorFlow 
+    -   TensorFlow 
     
-    . NumPy 
+    -   NumPy 
     
-    . Matplotlib 
+    -   Matplotlib 
     
-    . Jupyter Notebook 
+    -   Jupyter Notebook 
     
 # Overview of the analysis
 This project includes Jupyter Notebook files that build, train, test, and optimize a deep neural network that models charity success from nine features in a loan application data set. We employ the TensorFlow Keras Sequential model with Dense hidden layers and a binary classification output layer and optimize this model by varying the following parameters:
 
-    + Training duration (in epochs)
+   + Training duration (in epochs)
     
-    + Hidden layer activation functions
+   + Hidden layer activation functions
     
-    + Hidden layer architecture
+   + Hidden layer architecture
     
-    + Number of input features through categorical variable bucketing
+   + Number of input features through categorical variable bucketing
     
-    + Learning rate
+   + Learning rate
     
-    + Batch size
+   + Batch size
