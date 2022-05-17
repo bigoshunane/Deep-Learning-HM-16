@@ -1,13 +1,13 @@
 # Neural Network: Charity Funding Predictor
 
-# Background
+## Background
 
 The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
-# Project Objective
+## Project Objective
 Utlizing neural metwork and machine learnig to create a binary classifier capable of predicting whether the applicants for non-profit foundation Alphabet Soup will be sucessful or not for getting fund. 
 
-# Resources
+## Resources
 
 +  Data Source: charity_data.csv
 
@@ -33,7 +33,7 @@ This project includes Jupyter Notebook files that build, train, test, and optimi
    
 # Results
 
-##  1.  Data Preprocessing
+###  1.  Data Preprocessing
 First the dataset charity_data.csv was processed by reading in data and noting the following target, feature, and identification variables:
 
 -  Target Variable: `IS_SUCCESSFUL`
@@ -42,7 +42,7 @@ First the dataset charity_data.csv was processed by reading in data and noting t
 
 Then encoding categorical variables using `sklearn.preprocessing.OneHotEncoder` after bucketing noisy features `APPLICATION_TYPE` and `CLASSIFICATION` with many unique values. After one hot encoding, splitting data into the target and features, splitting again the data further into training and testing sets, and scale the training and testing data using `sklearn.preprocessing.StandardScaler`.
 
-## 2. Compiling, Training, and Evaluating the Model
+### 2. Compiling, Training, and Evaluating the Model
 With preprocessed data, the base model defined in AlphabetSoupCharity.ipynb using `tensorflow.keras.models.Sequential` and `tensorflow.keras.layers.Dense` with the following parameters were built:
 
 | Parameter | Value | Justification |
