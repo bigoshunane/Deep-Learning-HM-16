@@ -36,7 +36,7 @@ This project includes Jupyter Notebook files that build, train, test, and optimi
     
    + Hidden layer architecture
     
-   + Number of input features through categorical variable bucketing
+   + Number of input features through categorical variable binning
     
    + Learning rate
     
