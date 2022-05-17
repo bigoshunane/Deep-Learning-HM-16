@@ -49,6 +49,14 @@ With preprocessed data, the base model defined in AlphabetSoupCharity.ipynb usin
 | --- |--- | --- |
 | Number of Hidden Layers | 2 | Deep neural network is necessary for complex data, good starting point with low computation time. |
 | Architecture (hidden_nodes1, hidden_nodes2) | (80,30) | First layer has roughly two times the number of inputs (43), smaller second layer offers shorter computation time. |
+| Hidden Layer Activation Function | `relu` | Simple choice for inexpensive training with generally good performance. |
+| Number of Output Nodes | 1 | Model is a binary classifier and should therefore have one output predicting if `IS_SUCCESSFUL` is `True` or `False`. |
+| Output Layer Activation Function | `sigmoid` | Provides a probability output (value between 0 and 1) for the classification of `IS_SUCCESSFUL`. |
+
+This yields the model summary shown in Base Model Summary. Then comping and training the model using the `binary_crossentropy` loss function, `adam` optimizer, and `accuracy` metric to obtain the training results shown in Base Model Training. Verifying with the testing set, the following results obtained:
+
+-  Loss: 0.561
+-  Accuracy: 0.729
  
 
 
