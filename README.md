@@ -33,7 +33,7 @@ This project includes Jupyter Notebook files that build, train, test, and optimi
    
 # Results
 
-## 1. Data Preprocessing
+##  1.  Data Preprocessing
 First the dataset charity_data.csv was processed by reading in data and noting the following target, feature, and identification variables:
 
 -  Target Variable: `IS_SUCCESSFUL`
