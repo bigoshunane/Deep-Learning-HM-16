@@ -45,7 +45,7 @@ Then encoding categorical variables using `sklearn.preprocessing.OneHotEncoder` 
 ## 2. Compiling, Training, and Evaluating the Model
 With preprocessed data, the base model defined in AlphabetSoupCharity.ipynb using `tensorflow.keras.models.Sequential` and `tensorflow.keras.layers.Dense` with the following parameters were built:
 
-| Parameter | Value | Justification |
-| --- | --- | --- | --- |
-| Number of Hidden Layers | 2 | Deep neural network is necessary for complex data, good starting point with low computation time. |
+|  Parameter  |  Value  |  Justification  |
+|  ---  |  ---  |  ---  |  ---  |
+|  Number of Hidden Layers  |  2  |  Deep neural network is necessary for complex data, good starting point with low computation time.  |
 
