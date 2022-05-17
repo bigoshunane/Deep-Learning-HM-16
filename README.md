@@ -45,7 +45,7 @@ Then encoding categorical variables using `sklearn.preprocessing.OneHotEncoder` 
 ## 2. Compiling, Training, and Evaluating the Model
 With preprocessed data, the base model defined in AlphabetSoupCharity.ipynb using `tensorflow.keras.models.Sequential` and `tensorflow.keras.layers.Dense` with the following parameters were built:
 
-|Parameter|Value|Justification|
-|---|---|---|---|
+ | Parameter | Value | Justification |
+ | --- |--- | --- |
 
 
