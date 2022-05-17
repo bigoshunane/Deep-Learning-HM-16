@@ -21,7 +21,7 @@ Utlizing neural metwork and machine learnig to create a binary classifier capabl
     -   Matplotlib 
     -   Jupyter Notebook 
     
-# Overview of the analysis
+## Overview of the analysis
 This project includes Jupyter Notebook files that build, train, test, and optimize a deep neural network that models charity success from nine features in a loan application data set. TensorFlow Keras `Sequential` model with `Dense` hidden layers and a binary classification output layer and optimize this model by varying the following parameters are employed:
 
    + Training duration (in epochs)
@@ -31,7 +31,7 @@ This project includes Jupyter Notebook files that build, train, test, and optimi
    + Learning rate
    + Batch size
    
-# Results
+## Results
 
 ###  1.  Data Preprocessing
 First the dataset charity_data.csv was processed by reading in data and noting the following target, feature, and identification variables:
