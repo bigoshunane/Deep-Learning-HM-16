@@ -47,5 +47,8 @@ With preprocessed data, the base model defined in AlphabetSoupCharity.ipynb usin
 
  | Parameter | Value | Justification |
  | --- |--- | --- |
+ | Number of Hidden Layers | 2 | Deep neural network is necessary for complex data, good starting point with low computation time. |
+ | Architecture (hidden_nodes1, hidden_nodes2) | (80, 30) | First layer has roughly two times the number of inputs (43), smaller second layer offers shorter computation time. |
+ 
 
 
