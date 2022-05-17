@@ -41,3 +41,14 @@ This project includes Jupyter Notebook files that build, train, test, and optimi
    + Learning rate
     
    + Batch size
+   
+# Results
+
+## 1. Data Preprocessing
+First the dataset charity_data.csv was processed by reading in data and noting the following target, feature, and identification variables:
+
+-  Target Variable: `IS_SUCCESSFUL`
+-  Feature Variables: `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT`
+-  Identification Variables (to be removed): `EIN, NAME`
+
+Then encoding categorical variables using `sklearn.preprocessing.OneHotEncoder` after bucketing noisy features `APPLICATION_TYPE` and `CLASSIFICATION` with many unique values. After one hot encoding, splitting data into the target and features, splitting again the data further into training and testing sets, and scale the training and testing data using `sklearn.preprocessing.StandardScaler`.
