@@ -127,9 +127,10 @@ In [1]: learning_rates = [0.0001, 0.001, 0.01, 0.1, 1]
 In [2]: results = []                                                            
 
 In [3]: for rate in learning_rates: 
+
    ...:     result = build_train_test(learning_rate=rate, architecture=(80, 30), 
    
-   ...:                               activation="relu", epochs=100, 
+   ...:                               activation="relu", epochs=200, 
    
    ...:                               cat_cutoffs={"CLASSIFICATION": 1800}, 
    
