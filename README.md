@@ -60,3 +60,9 @@ This yields the model summary shown in Base Model Summary. Then comping and trai
  
 
 
+Optimization of the previous model by adjusting the parameters shown above and more in AlphabetSoupCharity_Optimization.ipynb, initially making the following single changes:
+
+| Parameter | Value | Justification | Loss | Accuracy |
+| --- |--- | --- | --- | -- |
+| Training Duration (epochs) | Increase from 100 to 200 | Longer training time could result in more trends learned. | 0.575 | 0.730 |
+| Hidden Layer Activation Function | Change from `relu` to `tanh` | Scaled data results in negative inputs which tanh does not output as zero. | 0.560 | 0.728 |
