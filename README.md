@@ -34,7 +34,7 @@ This project includes Jupyter Notebook files that build, train, test, and optimi
 ## Results
 
 ###  1.  Data Preprocessing
-First the dataset charity_data.csv was processed by reading in data and noting the following target, feature, and identification variables:
+First the dataset [charity_data.csv](https://github.com/bigoshunane/Deep-Learning-HM-16/blob/main/Resources/charity_data.csv) was processed by reading in data and noting the following target, feature, and identification variables:
 
 -  Target Variable: `IS_SUCCESSFUL`
 -  Feature Variables: `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT`
@@ -43,7 +43,7 @@ First the dataset charity_data.csv was processed by reading in data and noting t
 Then encoding categorical variables using `sklearn.preprocessing.OneHotEncoder` after bucketing noisy features `APPLICATION_TYPE` and `CLASSIFICATION` with many unique values. After one hot encoding, splitting data into the target and features, splitting again the data further into training and testing sets, and scale the training and testing data using `sklearn.preprocessing.StandardScaler`.
 
 ### 2. Compiling, Training, and Evaluating the Model
-With preprocessed data, the base model defined in AlphabetSoupCharity.ipynb using `tensorflow.keras.models.Sequential` and `tensorflow.keras.layers.Dense` with the following parameters were built:
+With preprocessed data, the base model defined in [AlphabetSoupCharity.ipynb](https://github.com/bigoshunane/Deep-Learning-HM-16/blob/main/AlphabetSoupCharity.ipynb) using `tensorflow.keras.models.Sequential` and `tensorflow.keras.layers.Dense` with the following parameters were built:
 
 | Parameter | Value | Justification |
 | --- |--- | --- |
@@ -60,7 +60,7 @@ This yields the model summary shown in Base Model Summary. Then comping and trai
  
 
 
-Optimization of the previous model by adjusting the parameters shown above and more in AlphabetSoupCharity_Optimization.ipynb, initially making the following single changes:
+Optimization of the previous model by adjusting the parameters shown above and more in [AlphabetSoupCharity_Optimization.ipynb](https://github.com/bigoshunane/Deep-Learning-HM-16/blob/main/AlphabetSoupCharity_Optimization.ipynb), initially making the following single changes:
 
 | Parameter | Value | Justification | Loss | Accuracy |
 | --- |--- | --- | --- | -- |
@@ -83,7 +83,7 @@ Combining all optimized model parameters, we retrain and test to obtain the foll
 -  Loss: 0.554
 -  Accuracy: 0.726
 
-There is a negligible decrease in accuracy from the base model defined in AlphabetSoupCharity.ipynb. As an additional optimization attempt, performing an iterative search of training batch size with values [1, 2, 4, 8, 16, 32, 64] and retaining the previously optimized parameters is possible. This search shows that a batch size of 64 yields the best results with a loss of 0.544 and accuracy of 0.736.
+There is a negligible decrease in accuracy from the base model defined in [AlphabetSoupCharity.ipynb](https://github.com/bigoshunane/Deep-Learning-HM-16/blob/main/AlphabetSoupCharity.ipynb). As an additional optimization attempt, performing an iterative search of training batch size with values [1, 2, 4, 8, 16, 32, 64] and retaining the previously optimized parameters is possible. This search shows that a batch size of 64 yields the best results with a loss of 0.544 and accuracy of 0.736.
 
 Considering the testing accuracy of each model, the architecture search generated the model with the best results and had the following parameters:
 
@@ -106,7 +106,7 @@ Rebuilding and training this model, the summary shown in Optimized Model Summary
 
 ## Summary
 
-In summary, a deep neural network classification model that predicts loan applicant success from feature data contained in `charity_data.csv` with 73% accuracy. This does not meet the 75% accuracy target, and the optimization methods employed here have not caused significant improvement.
+In summary, a deep neural network classification model that predicts loan applicant success from feature data contained in [charity_data.csv](https://github.com/bigoshunane/Deep-Learning-HM-16/blob/main/Resources/charity_data.csv) with 73% accuracy. This does not meet the 75% accuracy target, and the optimization methods employed here have not caused significant improvement.
 
 
 ## Additional Optimization Methods
