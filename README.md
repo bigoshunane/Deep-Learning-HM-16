@@ -130,11 +130,11 @@ In [3]: for rate in learning_rates:
 
    .    result = build_train_test(learning_rate=rate, architecture=(80, 30), 
    
-     - activation="relu", epochs=200, 
+     . activation="relu", epochs=200, 
    
-     - cat_cutoffs={"CLASSIFICATION": 1800}, 
+     . cat_cutoffs={"CLASSIFICATION": 1800}, 
    
-     - batch_size=32) 
+     . batch_size=32) 
    
    .    results.append(result)
    
