@@ -140,4 +140,5 @@ In [3]: for rate in learning_rates:
    
 Here the default values were passed to parameters other than learning rate for clarity. The parameter architecture is a tuple whose length specifies the number of hidden layers and values the number of nodes in each layer. In this example there are two hidden layers, the first with 80 nodes and the second with 30. The parameter cat_cutoffs is a dictionary with keys specifying which categorical features should have bucketing and values the minimum number of unique occurences to stay out of the bucket. In this example, if a sample's value in `CLASSIFICATION` occurs less than 1800 times, its value is changed to OTHER. This function returns a tuple `(model_loss, model_accuracy)` which in this example is added to `results` for later analysis.
 
+
 © 2021  Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
