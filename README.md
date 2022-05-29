@@ -1,4 +1,4 @@
-# Neural Network: Charity Funding Predictor
+# Charity Funding Predictor
 
 ## Background
 
