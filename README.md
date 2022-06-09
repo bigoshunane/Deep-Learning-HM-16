@@ -59,7 +59,6 @@ This yields the model summary shown in Base Model Summary. Then comping and trai
 -  Accuracy: 0.729
  
 
-
 Optimization of the previous model by adjusting the parameters shown above and more in [AlphabetSoupCharity_Optimization.ipynb](https://github.com/bigoshunane/Deep-Learning-HM-16/blob/main/AlphabetSoupCharity_Optimization.ipynb), initially making the following single changes:
 
 | Parameter | Value | Justification | Loss | Accuracy |
