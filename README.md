@@ -31,7 +31,7 @@ This project includes Jupyter Notebook files that build, train, test, and optimi
    + Learning rate
    + Batch size
    
-## Results
+## Results  
 
 ###  1.  Data Preprocessing
 First the dataset [charity_data.csv](https://github.com/bigoshunane/Deep-Learning-HM-16/blob/main/Resources/charity_data.csv) was processed by reading in data and noting the following target, feature, and identification variables:
