@@ -9,7 +9,7 @@ Utlizing neural metwork and machine learnig to create a binary classifier capabl
 
 ## Resources
 
-+  Data Source: charity_data.csv
++  Data Source: [charity_data.csv](https://github.com/bigoshunane/Deep-Learning-HM-16/tree/main/Resources)
 
 +  Technologies used:
 
